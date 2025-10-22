@@ -1,0 +1,11 @@
+function kaiser:alive
+function kaiser:coal
+function kaiser:deaths
+function kaiser:diamond
+function kaiser:emerald
+function kaiser:first_join
+function kaiser:gold
+function kaiser:iron
+function kaiser:obsidian
+function kaiser:passive
+function kaiser:broken
