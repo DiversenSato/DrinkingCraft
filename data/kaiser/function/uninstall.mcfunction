@@ -154,5 +154,7 @@ scoreboard objectives remove ksr.crossbow
 scoreboard objectives remove ksr.trident
 scoreboard objectives remove ksr.elytra
 
+scoreboard objectives remove ksr.vars
+
 # Remove init tag
-tag @a remove init
+tag @a remove ksr.init

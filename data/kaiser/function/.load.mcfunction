@@ -142,3 +142,7 @@ scoreboard objectives add ksr.bow minecraft.broken:minecraft.bow
 scoreboard objectives add ksr.crossbow minecraft.broken:minecraft.crossbow
 scoreboard objectives add ksr.trident minecraft.broken:minecraft.trident
 scoreboard objectives add ksr.elytra minecraft.broken:minecraft.elytra
+
+scoreboard objectives add ksr.vars dummy
+scoreboard players set 1 ksr.vars 1
+scoreboard players set 0 ksr.vars 0
