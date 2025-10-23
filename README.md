@@ -1,5 +1,5 @@
 DrinkingCraft
-A datapack that turns Minecraft into a drinking game. Made for version 1.21.1, with ```"pack_format": 48```. Project inspired by the datapack "Drunkcraft", which is no longer available — this project aims to provide an updated, functional version. Originally made by EnzuBR.
+A datapack that turns Minecraft into a drinking game. Made for version 1.21.10, with ```"pack_format": 81```. Project inspired by the datapack "Drunkcraft", which is no longer available — this project aims to provide an updated, functional version. Originally made by EnzuBR.
 
 ![Example of how the on-screen message looks](https://cdn.modrinth.com/data/cached_images/7684b7006b816873d0f73e328ab49da0b437e8f9_0.webp)
 
