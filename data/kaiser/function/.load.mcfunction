@@ -31,7 +31,7 @@ scoreboard objectives add ksr.deepslate_emerald_ore minecraft.mined:minecraft.de
 scoreboard objectives add ksr.deaths deathCount
 scoreboard objectives add ksr.time_since_death minecraft.custom:minecraft.time_since_death
 
-tag @a[tag=!init] add init
+tag @a[tag=!ksr.init] add ksr.init
 
 # Passive animals
 scoreboard objectives add ksr.allay minecraft.killed:minecraft.allay
