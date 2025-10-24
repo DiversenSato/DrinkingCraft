@@ -1,5 +1,4 @@
-# Remove advancements
-advancement revoke @a only kaiser:crafting
+advancement revoke @a only kaiser:crafting_table
 advancement revoke @a only kaiser:end
 advancement revoke @a only kaiser:ender_dragon
 advancement revoke @a only kaiser:fortress
@@ -10,22 +9,10 @@ advancement revoke @a only kaiser:return
 advancement revoke @a only kaiser:stronghold
 advancement revoke @a only kaiser:trade
 
-# Remove objectives
+
+
 scoreboard objectives remove ksr.coal
 scoreboard objectives remove ksr.coal_deep
-
-scoreboard objectives remove ksr.full_diamond
-scoreboard objectives remove ksr.full_netherite
-
-scoreboard objectives remove ksr.debris
-scoreboard objectives remove ksr.nether
-scoreboard objectives remove ksr.ender_dragon
-scoreboard objectives remove ksr.end
-scoreboard objectives remove ksr.stronghold
-scoreboard objectives remove ksr.crafting
-scoreboard objectives remove ksr.mushroom
-scoreboard objectives remove ksr.return
-scoreboard objectives remove ksr.fortress
 
 scoreboard objectives remove ksr.diamond_ore
 scoreboard objectives remove ksr.deepslate_diamond_ore
@@ -158,3 +145,5 @@ scoreboard objectives remove ksr.vars
 
 # Remove init tag
 tag @a remove ksr.init
+
+datapack disable "file/kaiser"

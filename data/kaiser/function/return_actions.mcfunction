@@ -1,11 +1,7 @@
-title @a times 5t 20t 5t
-
-title @p subtitle ["",{"text":"to take a shot","bold":false}]
-
-title @p title ["",{"text":"Choose someone","color":"gold","bold":true}]
+function kaiser:util/messages/choose_shot
 
 playsound minecraft:entity.player.levelup player @a
 
-tellraw @a ["",{"color":"gold","bold":true,"text":"<DrinkingCraft> "},{"color":"dark_red","bold":false,"selector":"@p"},{"color":"dark_red","bold":false,"text":" was the first to kill a Ghast by deflecting its fireball and can now choose someone to take a shot!"}]
+function kaiser:util/chat_broadcast {"message": "was the first to kill a Ghast by deflecting its fireball and can now choose someone to take a shot!", "color": "dark_red"}
 
-scoreboard players set $global ksr.return 0
+scoreboard players set return ksr.vars 1

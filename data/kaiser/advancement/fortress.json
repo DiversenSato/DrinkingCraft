@@ -1,25 +1,23 @@
 {
     "criteria": {
-      "fortress": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structures": "minecraft:fortress"
-                }
-              }
+        "fortress": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:fortress"
+                            }
+                        }
+                    }
+                ]
             }
-          ]
         }
-      }
     },
     "rewards": {
-      "function": "kaiser:fortress"
-    },
-    "sends_telemetry_event": false
-  }
-  
+        "function": "kaiser:events/discover/fortress/fortress"
+    }
+}

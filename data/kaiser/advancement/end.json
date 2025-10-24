@@ -1,20 +1,13 @@
 {
     "criteria": {
-      "entered_end": {
-        "trigger": "minecraft:changed_dimension",
-        "conditions": {
-          "to": "minecraft:the_end"
+        "entered_end": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "minecraft:the_end"
+            }
         }
-      }
     },
-    "requirements": [
-      [
-        "entered_end"
-      ]
-    ],
     "rewards": {
-      "function": "kaiser:end"
-    },
-    "sends_telemetry_event": false
-  }
-  
+        "function": "kaiser:events/discover/end/end"
+    }
+}

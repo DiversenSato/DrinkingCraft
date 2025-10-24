@@ -2,16 +2,16 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "slots": {
-        "weapon.mainhand": {
-          "predicates": {
-            "minecraft:enchantments": [
-              {
-                "enchantments": "silk_touch"
-              }
-            ]
-          }
+        "slots": {
+            "weapon.mainhand": {
+                "predicates": {
+                    "minecraft:enchantments": [
+                        {
+                            "enchantments": "silk_touch"
+                        }
+                    ]
+                }
+            }
         }
-      }
     }
-  }
+}

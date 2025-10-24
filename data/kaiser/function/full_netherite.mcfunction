@@ -1,1 +1,1 @@
-execute unless score $global ksr.full_netherite = $global ksr.full_netherite run function kaiser:full_netherite_actions
+execute unless score full_netherite ksr.vars matches 1 run function kaiser:full_netherite_actions

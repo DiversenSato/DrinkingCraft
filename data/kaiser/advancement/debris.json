@@ -1,19 +1,17 @@
 {
     "criteria": {
-      "ancient_debris": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:ancient_debris"
+        "ancient_debris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:ancient_debris"
+                    }
+                ]
             }
-          ]
         }
-      }
     },
     "rewards": {
-      "function": "kaiser:debris"
-    },
-    "sends_telemetry_event": false
-  }
-  
+        "function": "kaiser:events/mined/ancient_debris/debris"
+    }
+}

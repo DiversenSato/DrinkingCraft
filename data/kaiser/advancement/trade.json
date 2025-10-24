@@ -1,17 +1,10 @@
 {
     "criteria": {
-      "traded": {
-        "trigger": "minecraft:villager_trade"
-      }
+        "traded": {
+            "trigger": "minecraft:villager_trade"
+        }
     },
-    "requirements": [
-      [
-        "traded"
-      ]
-    ],
     "rewards": {
-      "function": "kaiser:trade_actions"
-    },
-    "sends_telemetry_event": false
-  }
-  
+        "function": "kaiser:trade_actions"
+    }
+}

@@ -1,20 +1,14 @@
 {
     "criteria": {
-      "entered_nether": {
-        "trigger": "minecraft:changed_dimension",
-        "conditions": {
-          "to": "minecraft:the_nether"
+        "entered_nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "minecraft:the_nether"
+            }
         }
-      }
     },
-    "requirements": [
-      [
-        "entered_nether"
-      ]
-    ],
+    "requirements": [["entered_nether"]],
     "rewards": {
-      "function": "kaiser:nether"
-    },
-    "sends_telemetry_event": false
-  }
-  
+        "function": "kaiser:events/discover/nether/nether"
+    }
+}

@@ -1,1 +1,1 @@
-execute unless score $global ksr.full_diamond = $global ksr.full_diamond run function kaiser:full_diamond_actions
+execute unless score full_diamond ksr.vars matches 1 run function kaiser:full_diamond_actions

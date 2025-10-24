@@ -1,1 +1,1 @@
-execute unless score $global ksr.return = $global ksr.return run function kaiser:return_actions
+execute unless score return ksr.vars matches 1 run function kaiser:return_actions

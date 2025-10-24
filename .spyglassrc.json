@@ -2,8 +2,8 @@
     "format": {
         "eol": "\n"
     },
-	"lint": {
-		"nameOfObjective": ["error", "^ksr\\.[a-z]+(_[a-z]+)*$"],
-		"nameOfTag": ["error", "^ksr\\.[a-z]+(_[a-z]+)*$"]
-	}
+    "lint": {
+        "nameOfObjective": ["error", "^ksr\\.[a-z]+(_[a-z]+)*$"],
+        "nameOfTag": ["error", "^ksr\\.[a-z]+(_[a-z]+)*$"]
+    }
 }

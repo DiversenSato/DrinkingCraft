@@ -1,7 +1,5 @@
-title @a times 5t 20t 5t
-
-title @a title ["",{"text":"Everyone drinks","color":"gold","bold":true}]
+function kaiser:util/messages/drink_everyone
 
 playsound minecraft:entity.player.levelup player @a
 
-tellraw @a ["",{"color":"gold","bold":true,"text":"<DrinkingCraft> "},{"color":"dark_aqua","bold":false,"selector":"@p"},{"color":"dark_aqua","bold":false,"text":" fez a sua primeira troca com um villager, todos devem beber pelo capitalismo!"}]
+function kaiser:util/chat_broadcast {"message":"made their first trade with a villager, everyone must drink for capitalism!","color":"dark_aqua"}

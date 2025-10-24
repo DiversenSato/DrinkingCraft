@@ -1,7 +1,5 @@
-title @a times 5t 20t 5t
-
-title @p title ["",{"text":"De shot","color":"gold","bold":true}]
+function kaiser:util/messages/shot
 
 playsound minecraft:entity.wither.ambient player @p
 
-tellraw @a ["",{"color":"gold","bold":true,"text":"<DrinkingCraft> "},{"color":"dark_aqua","bold":false,"selector":"@p"},{"color":"dark_aqua","bold":false,"text":" acabou de entrar pela primeira vez, toma um shot pra já começar bem!"}]
+function kaiser:util/chat_broadcast {"message": "joined the world for the first time! Taking a shot to start things off right!", "color": "dark_aqua"}

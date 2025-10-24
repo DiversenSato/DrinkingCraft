@@ -1,10 +1,10 @@
 function kaiser:alive
-function kaiser:coal
+function kaiser:events/mined/coal/coal
 function kaiser:deaths
-function kaiser:diamond
-function kaiser:emerald
+function kaiser:events/mined/diamond/diamond
+function kaiser:events/mined/emerald/emerald
 function kaiser:first_join
-function kaiser:gold
+function kaiser:events/mined/gold/gold
 function kaiser:iron
 function kaiser:obsidian
 function kaiser:passive

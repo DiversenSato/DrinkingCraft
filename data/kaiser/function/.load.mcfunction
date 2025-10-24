@@ -1,19 +1,6 @@
 scoreboard objectives add ksr.coal minecraft.mined:minecraft.coal_ore
 scoreboard objectives add ksr.coal_deep minecraft.mined:minecraft.deepslate_coal_ore
 
-scoreboard objectives add ksr.full_diamond dummy
-scoreboard objectives add ksr.full_netherite dummy
-
-scoreboard objectives add ksr.crafting dummy
-scoreboard objectives add ksr.debris dummy
-scoreboard objectives add ksr.end dummy
-scoreboard objectives add ksr.ender_dragon dummy
-scoreboard objectives add ksr.fortress dummy
-scoreboard objectives add ksr.mushroom dummy
-scoreboard objectives add ksr.nether dummy
-scoreboard objectives add ksr.return dummy
-scoreboard objectives add ksr.stronghold dummy
-
 scoreboard objectives add ksr.diamond_ore minecraft.mined:minecraft.diamond_ore
 scoreboard objectives add ksr.deepslate_diamond_ore minecraft.mined:minecraft.deepslate_diamond_ore
 
@@ -31,9 +18,6 @@ scoreboard objectives add ksr.deepslate_emerald_ore minecraft.mined:minecraft.de
 scoreboard objectives add ksr.deaths deathCount
 scoreboard objectives add ksr.time_since_death minecraft.custom:minecraft.time_since_death
 
-tag @a[tag=!ksr.init] add ksr.init
-
-# Passive animals
 scoreboard objectives add ksr.allay minecraft.killed:minecraft.allay
 scoreboard objectives add ksr.axolotl minecraft.killed:minecraft.axolotl
 scoreboard objectives add ksr.bat minecraft.killed:minecraft.bat
@@ -146,3 +130,5 @@ scoreboard objectives add ksr.elytra minecraft.broken:minecraft.elytra
 scoreboard objectives add ksr.vars dummy
 scoreboard players set 1 ksr.vars 1
 scoreboard players set 0 ksr.vars 0
+
+tag @a[tag=!ksr.init] add ksr.init

@@ -1,13 +1,7 @@
-title @a times 5t 20t 5t
-
-title @a subtitle ["",{"text":"Except ","bold":false},{"selector":"@p"}]
-
-title @p subtitle ["",{"text":"Except you","bold":false}]
-
-title @a title ["",{"text":"Everyone drinks","color":"gold","bold":true}]
+function kaiser:util/messages/drink_everyone_exclusive
 
 playsound minecraft:entity.player.levelup player @a
 
-tellraw @a ["",{"color":"gold","bold":true,"text":"<DrinkingCraft> "},{"color":"aqua","bold":false,"selector":"@p"},{"color":"aqua","bold":false,"text":" conseguiu um Full Dima, todos devem dar um gole de suas kaisers, Except "},{"color":"aqua","bold":false,"selector":"@p"},{"color":"aqua","bold":false,"text":"!"}]
+tellraw @a ["",{"color":"gold","text":"<Kaiser> "},{"color":"aqua","selector":"@p"},{"color":"aqua","text":" got full diamond armor, everyone should take a sip of their drink except "},{"color":"aqua","selector":"@p"},{"color":"aqua","text":"!"}]
 
-scoreboard players set $global ksr.full_diamond 0
+scoreboard players set full_diamond ksr.vars 1
